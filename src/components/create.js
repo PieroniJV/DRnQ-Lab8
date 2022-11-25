@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 
+//creating a book using a class and objects(Object oriented)
 export class Create extends React.Component {
 
     constructor() {

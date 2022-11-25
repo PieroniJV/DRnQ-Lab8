@@ -29,7 +29,7 @@ class App extends React.Component {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/read">Read</Nav.Link>
                 <Nav.Link href="/create">Create</Nav.Link>
-                <Nav.Link href="/fun">Function</Nav.Link>
+                <Nav.Link href="/fun">FCreate</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
