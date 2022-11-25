@@ -16,7 +16,9 @@ export function FCreate(props) {
         setTitle('');
     }, [])
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+
+        e.preventDefault();//fix for the navigate function
         alert(`${title} ${cover}, by ${author}`);
         const newBook = {
             title: title,
